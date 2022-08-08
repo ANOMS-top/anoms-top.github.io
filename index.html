@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<!-- ANOMS官网 By Tigercrl -->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>ANOMS - 一个不平凡的Minecraft服务器</title>
+<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+<!-- Core Style Sheets -->
+<link rel="stylesheet" href="assets/css/master.css">
+<!-- Responsive Style Sheets -->
+<link rel="stylesheet" href="assets/css/responsive.css">
+<!-- Revolution Style Sheets -->
+<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css">
+
+
+</head>
+<body>
+
+<!--== Loader Start ==-->
+<div id="loader-overlay">
+  <noscript><strong class="white-color">抱歉，ANOMS官网无法在无JavaScript环境下正常运行~~</strong></noscript>
+  <div class="loader">
+    <div class="spinner">
+      <svg viewBox="0 0 66 66">
+        <circle class="length" fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
+      </svg>
+      <svg viewBox="0 0 66 66">
+        <circle fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
+      </svg>
+      <svg viewBox="0 0 66 66">
+        <circle fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
+      </svg>
+      <svg viewBox="0 0 66 66">
+        <circle fill="none" stroke-width="8" stroke-linecap="round" cx="33" cy="33" r="28"></circle>
+      </svg>
+    </div>
+  </div>
+</div>
+<!--== Loader End ==-->
+
+<!--== Wrapper Start ==-->
+<div class="wrapper">
+
+  <!--== Header Start ==-->
+  <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full no-border">
+    <div class="container">
+      <!--== Start Atribute Navigation ==-->
+      <div class="attr-nav hidden-xs sm-display-none">
+        <ul>
+          <li class="side-menu"><a href="#"><i class="icofont icofont-navigation-menu"></i></a></li>
+        </ul>
+      </div>
+      <!--== End Atribute Navigation ==-->
+
+      <!--== Start Header Navigation ==-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="tr-icon ion-android-menu"></i> </button>
+        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="assets/images/logo-white.png" alt=""> <img class="logo logo-scrolled" src="assets/images/logo-black.png" alt=""> </a> </div>
+      </div>
+      <!--== End Header Navigation ==-->
+
+      <!--== Collect the nav links, forms, and other content for toggling ==-->
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
+          <li><a class="page-scroll" href="index.html"><span class="blue-color">主页</span></a></li>
+          <li class="dropdown"><a href="download.html" class="dropdown-toggle" data-toggle="dropdown">下载</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="download.html#modpacks">基础版整合包</a>
+              </li>
+              <li>
+                <a href="download.html#modpacks">豪华版整合包</a>
+              </li>
+              <li>
+                <a href="download.html#modpacks">Tiger的1.19辅助模组客户端</a>
+              </li>
+              <li>
+                <a href="download.html#modpacks">基岩版1.19.0安卓客户端</a>
+              </li>
+              <li>
+                <a href="download.html#resourcepacks">ANOMS专属材质包</a>
+              </li>
+              <li>
+                <a href="download.html#maps">ANOMS一周目地图</a>
+              </li>
+            </ul>
+          </li>
+          <li><a class="page-scroll" href="gallery.html">画廊</a></li>
+          <li><a class="page-scroll" href="join.html">进服说明</a></li>
+          <li><a class="page-scroll" href="donate.html">捐赠</a></li>
+          <li><a class="page-scroll" href="about.html">关于我们</a></li>
+          <li><a class="page-scroll" href="connect.html">留言板</a></li>
+          <li><a class="page-scroll" href="http://www.anoms.top:81/">旧版官网</a></li>
+        </ul>
+      </div>
+      <!--== /.navbar-collapse ==-->
+    </div>
+
+    <!-- Start Side Menu -->
+    <div class="side dark-bg">
+    		<a href="index.html" class="logo-side"><img src="assets/images/logo-white-sidemenu.png" alt="side-logo"/></a>
+            <a href="#" class="close-side"><i class="icofont icofont-close"></i></a>
+            <div class="widget mt-50">
+              <h2 class="white-color">页面目录</h2>
+              <br>
+              <ul class="link">
+                <li class="link-item"><a class="page-scroll" href="#home">主页</a></li>
+                <li class="link-item"><a class="page-scroll" href="#feature">服务器特点</a></li>
+                <li class="link-item"><a class="page-scroll" href="#comments">玩家评论</a></li>
+                <li class="link-item"><a class="page-scroll" href="#team">服务器主要管理团队</a></li>
+                <li class="link-item"><a class="page-scroll" href="#gallery">画廊</a></li>
+                <li class="link-item"><a class="page-scroll" href="#what-anoms">什么是ANOMS</a></li>
+                <li class="link-item"><a class="page-scroll" href="#anoms-home">ANOMS，便是你的家</a></li>
+                <li class="link-item"><a class="page-scroll" href="#footer">页脚</a></li>
+              </ul>
+            </div>
+     </div>
+     <!-- End Side Menu -->
+
+  </nav>
+  <!--== Header End ==-->
+
+  <!--== Hero Slider Start ==-->
+  <section class="remove-padding transition-none" id="home">
+  <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic4export" data-source="gallery" style="margin:0px auto;background-color:#000000;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
+	<div id="rev_slider_1078_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
+<ul>  <!-- SLIDE  -->
+  <li data-index="rs-3045" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+    <!-- MAIN IMAGE -->
+    <img src="assets/images/gallery/grid/1.png"  alt="" class="rev-slidebg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+    <!-- LAYERS -->
+
+    <!-- LAYER NR. 1 -->
+    <div class="hero-text-wrap-low-overlay">
+    <div class="tp-caption NotGeneric-Title tp-resizeme" id="slide-3045-layer-1"
+      data-x="['center','center','center','center']" data-hoffset="['-75','-75','-75','0']"
+      data-y="['middle','middle','middle','middle']" data-voffset="['-100','-100','-100','-80']"
+      data-fontsize="['76','66','66','30']"
+      data-lineheight="['86','56','56','40']"
+      data-width="none"
+      data-height="none"
+      data-whitespace="nowrap"
+      data-type="text"
+      data-responsive_offset="on"
+      data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+      data-textAlign="['left','left','left','left']"
+      data-paddingtop="[10,10,10,10]"
+      data-paddingright="[0,0,0,0]"
+      data-paddingbottom="[10,10,10,10]"
+      data-paddingleft="[0,0,0,0]" style="font-family: 'Roboto', serif;font-weight:400;"></div>
+
+    <!-- LAYER NR. 2 -->
+    <div class="tp-caption NotGeneric-Title tp-resizeme" id="slide-3045-layer-2"
+      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+      data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']"
+      data-fontsize="['86','56','56','30']"
+      data-lineheight="['76','66','66','40']"
+      data-width="none"
+      data-height="none"
+      data-whitespace="nowrap"
+      data-type="text"
+      data-responsive_offset="on"
+      data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+      data-textAlign="['left','left','left','left']"
+      data-paddingtop="[10,10,10,10]"
+      data-paddingright="[0,0,0,0]"
+      data-paddingbottom="[10,10,10,10]"
+      data-paddingleft="[0,0,0,0]" style="font-family: 'Roboto', sans-serif;font-weight:700;letter-spacing:10px;text-transform:uppercase;text-shadow: 2px 2px 5px gray;">ANOMS纯生存服务器</div>
+
+
+    <!-- LAYER NR. 3 -->
+    <div class="tp-caption NotGeneric-SubTitle tp-resizeme" id="slide-3045-layer-3"
+      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+      data-y="['middle','middle','middle','middle']" data-voffset="['65','65','65','35']"
+      data-fontsize="['56','56','56','30']"
+      data-lineheight="['66','66','66','40']"
+      data-width="none"
+      data-height="none"
+      data-whitespace="nowrap"
+      data-type="text"
+      data-responsive_offset="on"
+      data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+      data-textAlign="['left','left','left','left']"
+      data-paddingtop="[0,0,0,0]"
+      data-paddingright="[0,0,0,0]"
+      data-paddingbottom="[0,0,0,0]"
+      data-paddingleft="[0,0,0,0]" style="font-family: 'Roboto', sans-serif;font-weight:200;letter-spacing:10px;text-shadow: 2px 2px 3px gray;">一个不平凡的Minecraft服务器</div>
+
+      <!-- LAYER NR. 4 -->
+      <div class="tp-caption NotGeneric-SubTitle tp-resizeme" id="slide-3045-layer-4"
+        data-x="['center','center','center','center']" data-hoffset="['0','0','0','50']"
+        data-y="['middle','middle','middle','middle']" data-voffset="['150','150','150','120']"
+        data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-type="text"
+        data-responsive_offset="on"
+        data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+        data-textAlign="['left','left','left','center']"
+        data-paddingtop="[0,0,0,0]"
+        data-paddingright="[0,0,0,0]"
+        data-paddingbottom="[0,0,0,0]"
+        data-paddingleft="[0,0,0,0]"><a class="btn btn-lg btn-gradient-primary" href="join.html">立即加入</a></div>
+
+      </div>
+
+  </li>
+  <!-- SLIDE  -->
+  <li data-index="rs-3046" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+    <!-- MAIN IMAGE -->
+    <img src="assets/images/slides/video-1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+
+    <!-- BACKGROUND VIDEO LAYER -->
+    <div class="rs-background-video-layer"
+        data-forcerewind="on"
+        data-volume="mute"
+        data-videowidth="100%"
+        data-videoheight="100%"
+        data-videomp4="assets/videos/video-1.mp4"
+        data-videopreload="auto"
+        data-videoloop="loop"
+        data-aspectratio="16:9"
+        data-autoplay="true"
+        data-autoplayonlyfirsttime="false"
+></div>
+
+    <!-- LAYERS -->
+     <!-- LAYER NR. 1 -->
+    <div class="hero-text-wrap-no-overlay">
+    <div class="tp-caption NotGeneric-Title tp-resizeme" id="slide-3045-layer-6"
+      data-x="['right','right','right','center']" data-hoffset="['0','0','0','0']"
+      data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']"
+      data-fontsize="['76','66','66','30']"
+      data-lineheight="['86','56','56','40']"
+      data-width="none"
+      data-height="none"
+      data-whitespace="nowrap"
+      data-type="text"
+      data-responsive_offset="on"
+      data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+      data-textAlign="['left','left','left','left']"
+      data-paddingtop="[10,10,10,10]"
+      data-paddingright="[0,0,0,0]"
+      data-paddingbottom="[10,10,10,10]"
+      data-paddingleft="[0,0,0,0]" style="font-family: 'Roboto', serif;font-style: italic;font-weight:400;text-shadow: 2px 2px 3px gray;">ANOMS</div>
+
+    <!-- LAYER NR. 2 -->
+    <div class="tp-caption NotGeneric-Title tp-resizeme" id="slide-3045-layer-7"
+      data-x="['right','right','right','center']" data-hoffset="['0','0','0','0']"
+      data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','0']"
+      data-fontsize="['86','56','56','30']"
+      data-lineheight="['76','66','66','40']"
+      data-width="none"
+      data-height="none"
+      data-whitespace="nowrap"
+      data-type="text"
+      data-responsive_offset="on"
+      data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+      data-textAlign="['left','left','left','left']"
+      data-paddingtop="[10,10,10,10]"
+      data-paddingright="[0,0,0,0]"
+      data-paddingbottom="[10,10,10,10]"
+      data-paddingleft="[0,0,0,0]" style="font-family: 'Roboto', sans-serif;font-weight:700;letter-spacing:10px;text-transform:uppercase;text-shadow: 2px 2px 5px gray;">新春烟火</div>
+
+      <!-- LAYER NR. 3 -->
+      <div class="tp-caption NotGeneric-SubTitle tp-resizeme" id="slide-3045-layer-8"
+        data-x="['right','right','right','center']" data-hoffset="['0','0','0','0']"
+        data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"
+        data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-type="text"
+        data-responsive_offset="on"
+        data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+        data-textAlign="['left','left','left','left']"
+        data-paddingtop="[0,0,0,0]"
+        data-paddingright="[0,0,0,0]"
+        data-paddingbottom="[0,0,0,0]"
+        data-paddingleft="[0,0,0,0]"><a class="btn btn-lg btn-light-outline" href="https://www.bilibili.com/video/BV1yA411T7px" target="_blank">前往BiliBili以查看更多</a></div>
+      </div>
+  </li>
+  <!-- SLIDE  -->
+  <li data-index="rs-3047" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+    <!-- MAIN IMAGE -->
+    <img id="random-pic" src=""  alt="" class="rev-slidebg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-kenburns="on" data-duration="20000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="200" data-offsetstart="0 0" data-offsetend="0 0" data-rotatestart="0" data-rotateend="0">
+    <!-- LAYERS -->
+    <!-- LAYER NR. 1 -->
+      <div class="hero-text-wrap-no-overlay">
+        <div class="tp-caption NotGeneric-Title tp-resizeme" id="slide-3045-layer-6"
+      data-x="['right','right','right','center']" data-hoffset="['0','0','0','0']"
+      data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-50','-50']"
+      data-fontsize="['76','66','66','30']"
+      data-lineheight="['86','56','56','40']"
+      data-width="none"
+      data-height="none"
+      data-whitespace="nowrap"
+      data-type="text"
+      data-responsive_offset="on"
+      data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+      data-textAlign="['left','left','left','left']"
+      data-paddingtop="[10,10,10,10]"
+      data-paddingright="[0,0,0,0]"
+      data-paddingbottom="[10,10,10,10]"
+      data-paddingleft="[0,0,0,0]" style="font-family: 'Roboto', serif;;font-weight:400;text-shadow: 2px 2px 3px gray;">ANOMS建筑</div>
+
+    <!-- LAYER NR. 2 -->
+    <div class="tp-caption NotGeneric-Title tp-resizeme" id="slide-3045-layer-7"
+      data-x="['right','right','right','center']" data-hoffset="['0','0','0','0']"
+      data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','0']"
+      data-fontsize="['86','56','56','30']"
+      data-lineheight="['76','66','66','40']"
+      data-width="none"
+      data-height="none"
+      data-whitespace="nowrap"
+      data-type="text"
+      data-responsive_offset="on"
+      data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+      data-textAlign="['left','left','left','left']"
+      data-paddingtop="[10,10,10,10]"
+      data-paddingright="[0,0,0,0]"
+      data-paddingbottom="[10,10,10,10]"
+      data-paddingleft="[0,0,0,0]" style="font-family: 'Roboto', sans-serif;font-weight:700;letter-spacing:10px;text-transform:uppercase;text-shadow: 2px 2px 5px gray;">建筑大佬们的杰作</div>
+
+      <!-- LAYER NR. 3 -->
+      <div class="tp-caption NotGeneric-SubTitle tp-resizeme" id="slide-3045-layer-8"
+        data-x="['right','right','right','center']" data-hoffset="['0','0','0','0']"
+        data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','80']"
+        data-width="none"
+        data-height="none"
+        data-whitespace="nowrap"
+        data-type="text"
+        data-responsive_offset="on"
+        data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+        data-textAlign="['left','left','left','left']"
+        data-paddingtop="[0,0,0,0]"
+        data-paddingright="[0,0,0,0]"
+        data-paddingbottom="[0,0,0,0]"
+        data-paddingleft="[0,0,0,0]"><a class="btn btn-lg btn-light-outline" href="gallery.html">查看更多</a></div>    </div>
+
+  </li>
+  <!-- SLIDE  -->
+
+</ul>
+<div class="tp-bannertimer" style="height: 3px; background-color: rgba(255, 255, 255, 0.25);"></div>	</div>
+</div>
+  </section>
+  <!--== Hero Slider End ==-->
+
+  <!--== What We Offer Start ==-->
+  <section class="light-bg" id="feature">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="section-title">
+            <h2 class="play-font blue-color">ANOMS</h2>
+            <h1 class="roboto-font text-uppercase dark-color">服务器特点</h1>
+            <hr class="center_line blue-bg">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12 mt-40 mb-30 feature-box text-center">
+          <div class="gradient-bg-icon mb-20">
+            <i class="icofont icofont-game font-30px blue-color"></i>
+          </div>
+          <h3 class="mt-10 dark-color">公益</h3>
+          <p class="font-400 dark-color">ANOMS服务器是一个公益服务器，也就是你无需付费也可进服，但是如果觉得ANOMS做得好的话，也请多多赞助ANOMS。</p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 mt-40 mb-30 feature-box text-center">
+          <div class="gradient-bg-icon mb-20">
+            <i class="icofont icofont-plugin font-30px blue-color"></i>
+          </div>
+          <h3 class="mt-10 dark-color">更好的离线登陆</h3>
+          <p class="font-400 dark-color">ANOMS是一个离线服务器，也就是你不用正版账户也能进服。因为有<a href="https://www.spigotmc.org/resources/skinsrestorer.2124/" class="grey-color" target="_blank">SkinRestorer</a>的支持，可以显示皮肤。除此之外，还有<a href="https://www.spigotmc.org/resources/authmereloaded.6269/" class="grey-color" target="_blank">Authme</a>登陆插件，妈妈再也不用担心我被盗号啦！</p>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 mt-40 mb-30 feature-box text-center">
+          <div class="gradient-bg-icon mb-20">
+            <i class="icofont icofont-users-alt-3 font-30px blue-color"></i>
+          </div>
+          <h3 class="mt-10 dark-color">玩家社区</h3>
+          <p class="font-400 dark-color">在这片拥有无限可能的世界里，创造力和想象力是构成玩家社区的基石。玩家们创建了城镇与机械，举办了一个又一个的节日，这就是“一个不平凡的Minecraft服务器”的来历。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--== What We Offer End ==-->
+
+  <!--== Comments Start ==-->
+  <section class="darken-bg parallax-bg fixed-bg" data-parallax-bg-image="assets/images/slides/CommentBG.png" data-parallax-speed="100" id="comments">
+     <div class="container">
+        <div class="row">
+          <div class="testimonial-style-2">
+            <div class="col-xs-12">
+              <!--== Slide ==-->
+              <div class="testimonial-item">
+                <div class="testimonial-content">
+                  <p class="mt-20 line-height-26 font-20px"><i class="icofont icofont-quote-left font-50px default-color mt-20" style="text-shadow: 2px 2px px gray;"></i> <span class="white-color" style="text-shadow: 2px 2px 5px gray;">我是一个玩家的评语</span></p>
+                  <h5 class="font-700 mb-0 white-color play-font" style="text-shadow: 2px 2px 3px gray;">我是一个玩家</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12">
+              <!--== Slide ==-->
+              <div class="testimonial-item text-center">
+                <div class="testimonial-content">
+                  <p class="mt-20 line-height-26 font-20px"><i class="icofont icofont-quote-left font-50px default-color mt-20"></i> <span class="white-color" style="text-shadow: 2px 2px 5px gray;">我是一个玩家的评语</span></p>
+                  <h5 class="font-700 mb-0 white-color play-font" style="text-shadow: 2px 2px 3px gray;">我是一个玩家</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <!--== Slide ==-->
+              <div class="testimonial-item text-center">
+                <div class="testimonial-content">
+                  <p class="mt-20 line-height-26 font-20px"><i class="icofont icofont-quote-left font-50px default-color mt-20"></i> <span class="white-color" style="text-shadow: 2px 2px 5px gray;">我是一个玩家的评语</span></p>
+                  <h5 class="font-700 mb-0 white-color play-font" style="text-shadow: 2px 2px 3px gray;">我是一个玩家</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!--== Comments End ==-->
+
+  <!--== Team Start ==-->
+  <section class="light-bg" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="section-title">
+            <h2 class="play-font blue-color">ANOMS大家庭</h2>
+            <h1 class="roboto-font text-uppercase dark-color">服务器主要管理团队</h1>
+            <hr class="center_line blue-bg">
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-50">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="team-member">
+              <div class="team-thumb">
+                <div class="thumb-overlay"></div>
+                <img src="assets/images/team/team-1.png" alt="">
+                <div class="member-info text-center dark-bg">
+                  <h3>Tigercrl</h3>
+                  <span class="title">技术维护人员!</span>
+                  <div class="social-icons-style-02">
+                    <ul class="sm-icon mt-20">
+                      <li><a class="self-ins" href="about.html#Tigercrl" title="个人简介"><i class="icofont icofont-ui-user"></i></a></li>
+                      <li><a class="qq" href="tencent://message/?uin=1577438625&Menu=yes" title="QQ" target="_blank"><i class="fab fa-qq fa-fw"></i></a></li>
+                      <li><a class="gitee" href="https://gitee.com/Tigercrl" title="Gitee" target="_blank"><i class="fab fa-git fa-fw"></i></a></li>
+                      <li><a class="email" href="mailto:tigercrl@icloud.com" title="邮件"><i class="fa fa-envelope fa-fw"></i></a></li>
+                      <li><a class="bilibili" href="https://space.bilibili.com/627638767" title="哔哩哔哩" target="_blank"><i class="fab fa-bilibili fa-fw"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--== Member End ==-->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="team-member">
+              <div class="team-thumb">
+                <div class="thumb-overlay"></div>
+                <img src="assets/images/team/team-2.jpg" alt="">
+                <div class="member-info text-center dark-bg">
+                  <h3>Zhangwanyu</h3>
+                  <span class="title">腐竹大大!</span>
+                  <div class="social-icons-style-02">
+                    <ul class="sm-icon mt-20">
+                      <li><a class="self-ins" href="about.html#warrenz" title="个人简介"><i class="icofont icofont-ui-user"></i></a></li>
+                      <li><a class="qq" href="tencent://message/?uin=1738296705&Menu=yes" title="QQ" target="_blank"><i class="fab fa-qq fa-fw"></i></a></li>
+                      <li><a class="gitee" href="https://gitee.com/warrenz" title="Gitee" target="_blank"><i class="fab fa-git fa-fw"></i></a></li>
+                      <li><a class="email" href="mailto:1738296705@qq.com" title="邮件"><i class="fa fa-envelope fa-fw"></i></a></li>
+                      <li><a class="bilibili" href="https://space.bilibili.com/398122142" title="哔哩哔哩" target="_blank"><i class="fab fa-bilibili fa-fwy"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--== Member End ==-->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="team-member">
+              <div class="team-thumb">
+                <div class="thumb-overlay"></div>
+                <img src="assets/images/team/team-3.png" alt="">
+                <div class="member-info text-center dark-bg">
+                  <h3>Mr_Enderman</h3>
+                  <span class="title">最《文明》的OP!</span>
+                  <div class="social-icons-style-02">
+                    <ul class="sm-icon mt-20">
+                      <li><a class="self-ins" href="about.html#Mr_Enderman" title="个人简介"><i class="icofont icofont-ui-user"></i></a></li>
+                      <li><a class="qq" href="tencent://message/?uin=1872183372&Menu=yes" title="QQ" target="_blank"><i class="fab fa-qq fa-fw"></i></a></li>
+                      <li><a class="gitee" href="https://gitee.com/Mr_Enderman_awa" title="Gitee" target="_blank"><i class="fab fa-git fa-fw"></i></a></li>
+                      <li><a class="email" href="mailto:1872183372@qq.com" title="邮件"><i class="fa fa-envelope fa-fw"></i></a></li>
+                      <li><a class="bilibili" href="https://space.bilibili.com/1019751414" title="哔哩哔哩" target="_blank"><i class="fab fa-bilibili fa-fw"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!--== Team End ==-->
+
+  <!--== Portfolio Start ==-->
+  <section id="gallery" class="pb-0 pt-0">
+    <div class="container-fluid remove-padding">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div id="portfolio-gallery" class="cbp">
+            <div class="cbp-item branding col-md-3 col-sm-6">
+              <div class="portfolio-item">
+                <a href="gallery.html">
+                  <img src="assets/images/gallery/grid/1.png" alt="">
+                  <div class="portfolio-info dark-bg">
+                      <div class="centrize">
+                        <div class="v-center white-color">
+                          <h3>ANOMS欢迎牌</h3>
+                          <p>位于 : 主城</p>
+                        </div>
+                      </div>
+                    </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="cbp-item print branding col-md-3 col-sm-6">
+              <div class="portfolio-item">
+                <a href="gallery.html">
+                  <img src="assets/images/gallery/grid/2.png" alt="">
+                  <div class="portfolio-info dark-bg">
+                      <div class="centrize">
+                        <div class="v-center white-color">
+                          <h3>蕾姆钟楼</h3>
+                          <p>位于 : 主城郊区</p>
+                        </div>
+                      </div>
+                    </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="cbp-item print branding col-md-6 col-sm-6">
+              <div class="portfolio-item">
+                <a href="gallery.html">
+                  <img src="assets/images/gallery/grid/3.png" alt="">
+                  <div class="portfolio-info dark-bg">
+                      <div class="centrize">
+                        <div class="v-center white-color">
+                          <h3>古风小屋</h3>
+                          <p>位于 : Bad_Xigua的家</p>
+                        </div>
+                      </div>
+                    </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="cbp-item branding col-md-6 col-sm-6">
+              <div class="portfolio-item">
+                <a href="gallery.html">
+                  <img src="assets/images/gallery/grid/4.png" alt="">
+                  <div class="portfolio-info dark-bg">
+                      <div class="centrize">
+                        <div class="v-center white-color">
+                          <h3>海晶石小屋</h3>
+                          <p>位于 : Bad_Xigua的家</p>
+                        </div>
+                      </div>
+                    </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="cbp-item print photography col-md-3 col-sm-6">
+              <div class="portfolio-item">
+                <a href="gallery.html">
+                  <img src="assets/images/gallery/grid/5.png" alt="">
+                  <div class="portfolio-info dark-bg">
+                      <div class="centrize">
+                        <div class="v-center white-color">
+                          <h3>小火龙</h3>
+                          <p>位于 : </p>
+                        </div>
+                      </div>
+                    </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="cbp-item branding web-design col-md-3 col-sm-6">
+              <div class="portfolio-item">
+                <a href="gallery.html">
+                  <img src="assets/images/gallery/grid/6.png" alt="">
+                  <div class="portfolio-info dark-bg">
+                      <div class="centrize">
+                        <div class="v-center white-color">
+                          <h3>古风小阁楼</h3>
+                          <p>位于 : 空置域旁</p>
+                        </div>
+                      </div>
+                    </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+    </div>
+  </section>
+  <!--== Portfolio End ==-->
+
+  <!--=== Who Are We Start ======-->
+  <section class="light-bg lg-section" id="what-anoms">
+    <div class="col-md-6 col-sm-4 bg-flex bg-flex-right">
+      <div class="bg-flex-holder bg-flex-cover" style="background-image: url(assets/images/slides/bg-1.png);"></div>
+    </div>
+    <div class="container">
+      <div class="col-md-5 col-sm-7">
+        <div class="section-title">
+          <h2 class="play-font blue-color">什么是</h2>
+          <h1 class="roboto-font text-uppercase dark-color">ANOMS</h1>
+          <hr class="left-line blue-bg">
+        </div>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ANOMS这个词语来自“A not an ordinary minecraft server!”的递归缩写，即ANOMS是一个不平凡的Minecraft服务器。
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这是一个Minecraft Java 1.17纯净生存服务器，无任何改变游戏内容的插件，而且无正版验证，这意味着你可以通过HMCL这样的第三方启动器进行登录。不过你可以在客户端安装材质包和光影，以获得更好的游戏体验。
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在你可以<i>无门槛</i>地加入 ANOMS 了。无论你是一位普通的 Minecraft 玩家，或者是建筑爱好者，亦或者是红石大师，甚至于编程大佬，这里都有你的一席之地。我们随时欢迎你的到来！</p>
+        <sup>（门槛其实是有的：你需要一个Minecraft启动器，仅此而已！）</sup>
+        <p class="mt-30"><a class="btn btn-lg btn-dark-outline" href="join.html">立即加入</a></p>
+      </div>
+    </div>
+  </section>
+  <!--=== Who Are We End ======-->
+
+  <!--=== About Us Start ======-->
+  <!-- <section class="dark-bg lg-section">
+    <div class="col-md-6 col-sm-4 bg-flex bg-flex-left">
+      <div class="bg-flex-holder bg-flex-cover" style="background-image: url(assets/images/bg-left-img.jpg);"></div>
+    </div>
+    <div class="container">
+      <div class="col-md-5 col-sm-7 col-md-offset-7 col-sm-offset-5">
+        <div class="section-title white-color">
+          <h2 class="play-font">ANOMS大家庭</h2>
+          <h1 class="roboto-font text-uppercase">独乐不如众乐</h1>
+          <hr class="left-line white-bg">
+        </div>
+        <p></p>
+        <p class="mt-30"><a class="btn btn-lg btn-light-outline btn-square">立即加入QQ群</a></p>
+      </div>
+    </div>
+  </section> -->
+  <!--=== About Us End ======-->
+
+  
+  <!--== Clients Start ==-->
+  <!-- <div class="dark-bg pt-120 pb-120">
+    <div class="container">
+      <div class="row">
+        <div class="client-slider slick">
+          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-1.png" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-2.png" alt="02"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-3.png" alt="03"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-4.png" alt="04"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-5.png" alt="05"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="assets/images/clients/logo-6.png" alt="06"/> </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!--== Clients End ==-->
+
+  <!--== Video Start ==-->
+  <section class="parallax-bg fixed-bg" data-parallax-bg-image="assets/images/slides/AnomsIsYourHome.png" data-parallax-speed="100" id="anoms-home">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-8 text-center parallax-content height-400px centerize-col">
+  				<div class="center-layout">
+                <div class="v-align-middle">
+                   <h1 class="font-400 white-color"><img src="assets/images/logo-anoms-home.png"><br>便是你的家</h1>
+                </div>
+              </div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+  <!--== Video End ==-->
+
+  <!--== Pricing Table Start ==-->
+  <!-- <section class="white-bg" id="pricing">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="section-title">
+            <h2 class="play-font">Select Your Plan</h2>
+            <h1 class="roboto-font text-uppercase">Our Pricing</h1>
+            <hr class="center_line dark-bg">
+          </div>
+        </div>
+      </div>
+      <div class="row mt-10">
+          <div class="col-md-4 pricing-table col-sm-4">
+            <div class="pricing-box dark-bg text-center white-color">
+              <h3 class="mb-0 mt-0">Basic Plan</h3>
+              <h4>An affordable option for end-to-end hiring at small companies.</h4>
+              <h2 class="font-60px play-font"><sup>$</sup><span>9.99</span></h2>
+              <ul class="list-style-02">
+              	<li>Mobile-Optimized Website</li>
+                  <li>Powerful Website Metrics</li>
+                  <li>Free Custom Domain</li>
+                  <li>24/7 Customer Support</li>
+                  <li>Fully Integrated E-Commerce</li>
+                  <li>Sell Unlimited Products &amp; Accept Donations</li>
+                  <li class="not-available">No CMS items</li>
+                  <li class="not-available">No site search</li>
+                  <li class="not-available">No CMS API access</li>
+                  <li class="not-available">No content editors</li>
+              </ul>
+              <div class="pricing-box-bottom"> <a class="btn btn-lg btn-light-outline btn-square">Purchase Plan</a> </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 pricing-table col-sm-4">
+            <div class="pricing-box dark-bg text-center white-color">
+              <h3 class="mb-0 mt-0">Standard Plan</h3>
+              <h4>An affordable option for end-to-end hiring at small companies.</h4>
+              <h2 class="font-60px play-font"><sup>$</sup><span>16.99</span></h2>
+              <div class="pricicng-feature">
+                  <ul class="list-style-02">
+                      <li>Mobile-Optimized Website</li>
+                      <li>Powerful Website Metrics</li>
+                      <li>Free Custom Domain</li>
+                      <li>24/7 Customer Support</li>
+                      <li>Fully Integrated E-Commerce</li>
+                      <li>Sell Unlimited Products &amp; Accept Donations</li>
+                      <li>No CMS items</li>
+                      <li>No site search</li>
+                      <li class="not-available">No CMS API access</li>
+                      <li class="not-available">No content editors</li>
+              	</ul>
+              </div>
+              <div class="pricing-box-bottom"> <a class="btn btn-lg btn-light-outline btn-square">Purchase Plan</a> </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 pricing-table col-sm-4">
+            <div class="pricing-box dark-bg text-center white-color">
+              <h3 class="mb-0 mt-0">Extended Plan</h3>
+              <h4>An affordable option for end-to-end hiring at small companies.</h4>
+              <h2 class="font-60px play-font"><sup>$</sup><span>24.99</span></h2>
+              <ul class="list-style-02">
+              	<li>Mobile-Optimized Website</li>
+                  <li>Powerful Website Metrics</li>
+                  <li>Free Custom Domain</li>
+                  <li>24/7 Customer Support</li>
+                  <li>Fully Integrated E-Commerce</li>
+                  <li>Sell Unlimited Products &amp; Accept Donations</li>
+                  <li>No CMS items</li>
+                  <li>No site search</li>
+                  <li>No CMS API access</li>
+                  <li>No content editors</li>
+              </ul>
+              <div class="pricing-box-bottom"> <a class="btn btn-lg btn-light-outline btn-square">Purchase Plan</a> </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section> -->
+  <!--== Pricing Table End ==-->
+
+  <!--== Footer Start ==-->
+  <footer class="footer" id="footer">
+    <div class="footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="widget widget-text">
+              <div class="logo-footer"><br><a href="index.html"> <img class="img-responsive" src="assets/images/logo-footer-dark.png" alt=""></a> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="widget widget-links">
+              <h5 class="widget-title">联系服主</h5>
+              <ul>
+                <li><a href="tencent://message/?uin=1738296705&Site=&Menu=yes" target="_blank">QQ</a></li>
+                <li><a href="https://gitee.com/warrenz" target="_blank">Gitee</a></li>
+                <li><a href="mailto:1738296705@qq.com">邮件</a></li>
+                <li><a href="https://space.bilibili.com/398122142" target="_blank">BiliBili</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-2">
+            <div class="widget widget-links">
+              <h5 class="widget-title">实用链接</h5>
+              <ul>
+                <li><a href="https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki" target="_blank">Minecraft官方中文Wiki</a></li>
+                <li><a href="https://www.mcbbs.net/" target="_blank">MCBBS</a></li>
+                <li><a href="https://www.mcmod.cn/" target="_blank">MC百科</a></li>
+                <li><a href="https://www.curseforge.com/minecraft/mc-mods" target="_blank">CurseForge</a></li>
+                <li><a href="https://www.modrinth.com/" target="_blank">Modrinth</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="widget widget-text widget-links">
+              <h5 class="widget-title">服务器信息</h5>
+              <ul>
+                <li> <i class="icofont icofont-social-google-map"></i> 中国 · 上海</li>
+                <li> <i class="icofont icofont-server"></i> 腾讯云学生机</li>
+                <li> <i class="icofont icofont-gear"></i> <a href="https://cn.ubuntu.com/" target="_blank">Ubuntu 20.04.4 LTS</a> </li>
+                <li> <i class="icofont icofont-settings"></i> 2核CPU 4GB内存</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copy-right text-center"><span class="blue-color">ANOMS 2020-2022</span> | <a href="http://beian.miit.gov.cn/" class="grey-color" target="_blank">津ICP备20004656号</a></div>
+            <div class="copy-right text-center">Powered by <span class="green-color">Nigo</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--== Footer End ==-->
+
+</div>
+<!--== Wrapper End ==-->
+
+<!--== Javascript Plugins ==-->
+<script src="http://www.google.cn/maps/api/js?key=AIzaSyDJNGOwO2hJpJ9kz8e0UUPjZhEbgDJTTXE"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/master.js"></script>
+
+<!-- Revolution js Files -->
+<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="revolution/js/revolution.extension.actions.min.js"></script>
+<script src="revolution/js/revolution.extension.carousel.min.js"></script>
+<script src="revolution/js/revolution.extension.kenburn.min.js"></script>
+<script src="revolution/js/revolution.extension.layeranimation.min.js"></script>
+<script src="revolution/js/revolution.extension.migration.min.js"></script>
+<script src="revolution/js/revolution.extension.navigation.min.js"></script>
+<script src="revolution/js/revolution.extension.parallax.min.js"></script>
+<script src="revolution/js/revolution.extension.slideanims.min.js"></script>
+<script src="revolution/js/revolution.extension.video.min.js"></script>
+<script src="assets/js/awa.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js"></script>
+<!--== Javascript Plugins End ==-->
+
+</body>
+</html>
