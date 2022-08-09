@@ -4,7 +4,7 @@
 
 # ANOMS新版官网
 
-<img src="https://img.shields.io/github/languages/code-size/Tigercrl/anoms"><img src="https://img.shields.io/github/last-commit/Tigercrl/anoms/master"><img src="https://img.shields.io/github/deployments/Tigercrl/anoms/github-pages">
+<img src="https://img.shields.io/github/repo-size/ANOMS-top/anoms-top.github.io?color=9cf&label=%E4%BB%93%E5%BA%93%E5%A4%A7%E5%B0%8F"> <img src="https://img.shields.io/github/last-commit/ANOMS-top/anoms-top.github.io?color=orange&label=%E4%B8%8A%E6%AC%A1%E6%8F%90%E4%BA%A4"><img src="https://img.shields.io/github/deployments/ANOMS-top/anoms-top.github.io/github-pages?label=Github%20Pages%E7%8A%B6%E6%80%81">
 
 ## 介绍
 ANOMS这个词语来自“A not an ordinary minecraft server!”的递归缩写，即ANOMS是一个不平凡的Minecraft服务器。
