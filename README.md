@@ -15,7 +15,7 @@ ANOMS这个词语来自“A not an ordinary minecraft server!”的递归缩写�
 
 ## 网页
 
-[点此前往](anoms-top.github.io)
+[点此前往](http://anoms-top.github.io/)
 
 ## 参与贡献
 
