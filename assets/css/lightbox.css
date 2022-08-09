@@ -41,12 +41,12 @@
     top: -0.8em;
     right: -0.8em;
     background-size: 40%;
-    background-image: url("icons/lightbox-close.svg");
+    background-image: url("../images/lightbox-close.svg");
 }
 .lightbox-btn-next, .lightbox-btn-previous {
     top: calc(50% - (2.2em / 2));
     background-size: 25% 80%;
-    background-image: url("icons/lightbox-arrow.svg");
+    background-image: url("../images/lightbox-arrow.svg");
 }
 .lightbox-btn-previous {
     left: 1.5em;

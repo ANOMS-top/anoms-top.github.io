@@ -1,6 +1,5 @@
 	/* ===================================================================
 
-	更多精品模板：Http://www.bootstrapmb.com
 	Template Name	: Beam - Creative One Page Parallax Template
 	Version      	: 1.0
 
