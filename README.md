@@ -13,11 +13,9 @@ ANOMS这个词语来自“A not an ordinary minecraft server!”的递归缩写�
 
 <sup>（门槛其实是有的：你需要一个Minecraft启动器，仅此而已！）</sup>
 
-## 网页预览
+## 网页
 
-*可能因Javascript原因无法预览*
-
-<p align="center"><iframe src="index.html" height="480" width="768"></iframe></p>
+[点此前往](anoms-top.github.io)
 
 ## 参与贡献
 
