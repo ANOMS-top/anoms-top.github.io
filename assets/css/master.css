@@ -134,6 +134,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56ab2f', end
   opacity: 0; }
 }
 
+.font-center{text-align:center}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.875em;
+  margin: 0 0 20px;
+  width: 35%;
+}
+tbody tr:nth-of-type(odd) {
+  background: #f9f9f9;
+}
+tbody tr:hover {
+  background: #f5f5f5;
+}
+th,td {
+  padding: 8px;
+}
+th,td {
+  border: 1px solid #ddd;
+  border-bottom: 3px solid #ddd;
+}
+th {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+td {
+  border-bottom-width: 1px;
+}
 
 /* Loader */
 
@@ -237,6 +265,7 @@ color: #fe4f4f;}
 .contact-form-style-02 .has-error .help-block, .contact-form-style-02 .has-error .control-label, .contact-form-style-02 .has-error .radio, .contact-form-style-02 .has-error .checkbox, .contact-form-style-02 .has-error .radio-inline, .contact-form-style-02 .has-error .checkbox-inline, .contact-form-style-02 .has-error.radio label, .contact-form-style-02 .has-error.checkbox label, .contact-form-style-02 .has-error.radio-inline label, .contact-form-style-02 .has-error.checkbox-inline label {
  color: #fff;}
  .contact-form-style-03 input, .contact-form-style-03 textarea, .contact-form-style-03 select {color:#212121;}
+table{margin: 0 auto;}
 
 /* Sections */
 
