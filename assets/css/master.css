@@ -169,11 +169,11 @@ td {
 .loader{display: inline-block;position: absolute;top: 50%;left: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);}
 
 .spinner{width:66px;height:66px;-webkit-animation:contanim 2s linear infinite;animation:contanim 2s linear infinite;}
-svg{width:100%;height:100%;left:0;top:0;position:absolute;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);}
-svg:nth-child(1) circle{stroke:#84EBBD;stroke-dasharray:1, 300;stroke-dashoffset:0;-webkit-animation:strokeanim 3s calc(.2s * (1)) ease infinite;animation:strokeanim 3s calc(.2s * (1)) ease infinite;-webkit-transform-origin:center center;transform-origin:center center;}
-svg:nth-child(2) circle{stroke:#4977EC;stroke-dasharray:1, 300;stroke-dashoffset:0;-webkit-animation:strokeanim 3s calc(.2s * (2)) ease infinite;animation:strokeanim 3s calc(.2s * (2)) ease infinite;-webkit-transform-origin:center center;transform-origin:center center;}
-svg:nth-child(3) circle{stroke:#F6BB67;stroke-dasharray:1, 300;stroke-dashoffset:0;-webkit-animation:strokeanim 3s calc(.2s * (3)) ease infinite;animation:strokeanim 3s calc(.2s * (3)) ease infinite;-webkit-transform-origin:center center;transform-origin:center center;}
-svg:nth-child(4) circle{stroke:#333841;stroke-dasharray:1, 300;stroke-dashoffset:0;-webkit-animation:strokeanim 3s calc(.2s * (4)) ease infinite;animation:strokeanim 3s calc(.2s * (4)) ease infinite;-webkit-transform-origin:center center;transform-origin:center center;}
+.svg-nigo svg{width:100%;height:100%;left:0;top:0;position:absolute;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);}
+.svg-nigo svg:nth-child(1) circle{stroke:#84EBBD;stroke-dasharray:1, 300;stroke-dashoffset:0;-webkit-animation:strokeanim 3s calc(.2s * (1)) ease infinite;animation:strokeanim 3s calc(.2s * (1)) ease infinite;-webkit-transform-origin:center center;transform-origin:center center;}
+.svg-nigo svg:nth-child(2) circle{stroke:#4977EC;stroke-dasharray:1, 300;stroke-dashoffset:0;-webkit-animation:strokeanim 3s calc(.2s * (2)) ease infinite;animation:strokeanim 3s calc(.2s * (2)) ease infinite;-webkit-transform-origin:center center;transform-origin:center center;}
+.svg-nigo svg:nth-child(3) circle{stroke:#F6BB67;stroke-dasharray:1, 300;stroke-dashoffset:0;-webkit-animation:strokeanim 3s calc(.2s * (3)) ease infinite;animation:strokeanim 3s calc(.2s * (3)) ease infinite;-webkit-transform-origin:center center;transform-origin:center center;}
+.svg-nigo svg:nth-child(4) circle{stroke:#333841;stroke-dasharray:1, 300;stroke-dashoffset:0;-webkit-animation:strokeanim 3s calc(.2s * (4)) ease infinite;animation:strokeanim 3s calc(.2s * (4)) ease infinite;-webkit-transform-origin:center center;transform-origin:center center;}
 @-webkit-keyframes strokeanim{0%{stroke-dasharray:1, 300;stroke-dashoffset:0;}
  50%{stroke-dasharray:120, 300;stroke-dashoffset:-58.548324585;}
  100%{stroke-dasharray:120, 300;stroke-dashoffset:-175.6449737549;}
@@ -2794,3 +2794,14 @@ section.big-block .client-logo {padding:10%;}
 .imghvr-blur figcaption {opacity: 0;}
 .imghvr-blur:hover > img { -webkit-filter: blur(30px); filter: blur(30px); -webkit-transform: scale(1.2); -moz-transform: scale(1.2); -ms-transform: scale(1.2); -o-transform: scale(1.2); transform: scale(1.2); opacity: 0; }
 .imghvr-blur:hover figcaption { opacity: 1; -webkit-transition-delay: 0.21s; -moz-transition-delay: 0.21s; transition-delay: 0.21s; }
+
+/* waline
+   ----------------------------- */
+.waline{
+	padding-left: 200px;
+	padding-right: 200px;
+	margin: auto;
+}
+.wl-editor{
+	width: 96%;
+}
