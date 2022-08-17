@@ -1,6 +1,19 @@
+//随机数生成
+function randomNum(minNum,maxNum){ 
+    switch(arguments.length){ 
+        case 1: 
+            return parseInt(Math.random()*minNum+1,10); 
+        break; 
+        case 2: 
+            return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10); 
+        break; 
+            default: 
+                return 0; 
+            break; 
+    }
+}
 //随机图片
-var num = Math.floor(Math.random()*5+2);
-document.getElementById("random-pic").src="assets/images/gallery/"+num+".png";
+document.getElementById("random-pic").src="assets/images/gallery/"+randomNum(2,23)+".png";
 //控制台ANOMS输出
 console.log(String.raw`  /■■■■■■  /■■   /■■  /■■■■■■  /■■      /■■  /■■■■■■ `+"\n"+String.raw` /■■__  ■■| ■■■ | ■■ /■■__  ■■| ■■■    /■■■ /■■__  ■■`+"\n"+String.raw`| ■■  \ ■■| ■■■■| ■■| ■■  \ ■■| ■■■■  /■■■■| ■■  \__/`+"\n"+String.raw`| ■■■■■■■■| ■■ ■■ ■■| ■■  | ■■| ■■ ■■/■■ ■■|  ■■■■■■ `+"\n"+String.raw`| ■■__  ■■| ■■  ■■■■| ■■  | ■■| ■■  ■■■| ■■ \____  ■■`+"\n"+String.raw`| ■■  | ■■| ■■\  ■■■| ■■  | ■■| ■■\  ■ | ■■ /■■  \ ■■`+"\n"+String.raw`| ■■  | ■■| ■■ \  ■■|  ■■■■■■/| ■■ \/  | ■■|  ■■■■■■/`+"\n"+String.raw`|__/  |__/|__/  \__/ \______/ |__/     |__/ \______/ `+"\n\n	 欢迎来到ANOMS纯净生存服务器官网 原作者：Tigercrl")
 //生日控制台输出
