@@ -16,7 +16,8 @@ function randomNum(minNum,maxNum){
 document.getElementById("random-pic").src="assets/images/gallery/"+randomNum(2,23)+".png";
 //控制台ANOMS输出
 console.log(String.raw`  /■■■■■■  /■■   /■■  /■■■■■■  /■■      /■■  /■■■■■■ `+"\n"+String.raw` /■■__  ■■| ■■■ | ■■ /■■__  ■■| ■■■    /■■■ /■■__  ■■`+"\n"+String.raw`| ■■  \ ■■| ■■■■| ■■| ■■  \ ■■| ■■■■  /■■■■| ■■  \__/`+"\n"+String.raw`| ■■■■■■■■| ■■ ■■ ■■| ■■  | ■■| ■■ ■■/■■ ■■|  ■■■■■■ `+"\n"+String.raw`| ■■__  ■■| ■■  ■■■■| ■■  | ■■| ■■  ■■■| ■■ \____  ■■`+"\n"+String.raw`| ■■  | ■■| ■■\  ■■■| ■■  | ■■| ■■\  ■ | ■■ /■■  \ ■■`+"\n"+String.raw`| ■■  | ■■| ■■ \  ■■|  ■■■■■■/| ■■ \/  | ■■|  ■■■■■■/`+"\n"+String.raw`|__/  |__/|__/  \__/ \______/ |__/     |__/ \______/ `+"\n\n	 欢迎来到ANOMS纯净生存服务器官网 原作者：Tigercrl")
-//生日控制台输出
+console.log("				   ANOMS官网 · v1.0.0-pre24")
+//生日控制台输出，私信Tigercrl以记录生日
 var today = new Date();
 var month = today.getMonth() + 1;
 var date = today.getDate();
