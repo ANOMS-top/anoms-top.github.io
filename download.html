@@ -3,12 +3,12 @@
 <html lang="zh-CN">
 <head>
 <!-- Base Link -->
-<base href="https://anoms-top.github.io/" />
+<!-- <base href="https://anoms-top.github.io/" /> -->
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>博客 - ANOMS纯净生存服务器</title>
+<title>捐赠 - ANOMS纯净生存服务器</title>
 <link rel="shortcut icon" href="assets/images/favicon.ico">
 
 <!-- Core Style Sheets -->
@@ -19,8 +19,8 @@
 <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
 <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
 <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
-<!-- Font Awesome Sheets -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<!-- LightBox Style Sheets -->
+<link href="assets/css/lightbox.css" rel="stylesheet">
 
 </head>
 <body>
@@ -76,8 +76,8 @@
             </ul>
           </li>
           <li><a class="page-scroll" href="gallery/">画廊</a></li>
-          <li><a class="page-scroll" href="blogs/"><span class="blue-color">博客</span></a></li>
-          <li><a class="page-scroll" href="donate/">捐赠</a></li>
+          <li><a class="page-scroll" href="blogs/">博客</a></li>
+          <li><a class="page-scroll" href="donate/"><span class="blue-color">捐赠</span></a></li>
           <li><a class="page-scroll" href="comments/">留言板</a></li>
           <li><a class="page-scroll" href="http://www.anoms.top:8080/">服务器实时地图</a></li>
         </ul>
@@ -95,12 +95,12 @@
          <div class="row">
            <div class="col-md-12">
              <div class="page-title text-center white-color">
-               <h1 class="play-font font-300">博客</h1>
+               <h1 class="play-font font-300">捐赠</h1>
                <div class="breadcrumb mt-20">
                    <!-- Breadcrumb Start -->
                        <ul>
                          <li><a href="/">主页</a></li>
-                         <li><a href="blogs/">博客</a></li>
+                         <li><a href="gallery/">捐赠</a></li>
                        </ul>
                    <!-- Breadcrumb End -->
                </div>
@@ -113,27 +113,116 @@
  </div>
  <!--== Page Title End ==-->
 
- <!--== Blog Start ==-->
- <section class="grey-bg" id="blog">
-   <div class="container">
-     <div class="row blog-style-01">
+ <!--== Why Donate Start ==-->
+ <section id="why-donate" class="pb-0">
+    <div class="col-md-6 col-sm-4 bg-flex bg-flex-right">
+      <div class="bg-flex-holder bg-flex-cover" style="background-image: url(assets/images/gallery/2.png);"></div>
+    </div>
+    <div class="container">
+      <div class="col-md-5 col-sm-7">
+        <div class="section-title">
+          <h2 class="play-font blue-color">为什么要</h2>
+          <h1 class="roboto-font text-uppercase dark-color">开启这个页面</h1>
+          <hr class="left-line blue-bg">
+        </div>
+        <p>&emsp;&emsp;ANOMS服务器运行在一台腾讯云学生机上，相比于一些大型的服务器，每月的维护费用并不是很高，而服务器需要的一些程序和文件也可以在互联网上免费获取。即便如此，维护mc服务器和ANOMS主页仍需要成本和精力。<br>
+        <br>&emsp;&emsp;获取的捐赠将会主要用于服务器运行的正常开销，多余的收入也会用于升级服务器的配置，以进一步提高游戏体验。</p>
+        <p class="mt-30"><a class="btn btn-lg btn-dark-outline" href="#donate">立即捐赠</a></p>
+      </div>
+    </div>
+ </section>
+ <!--== Why Donate End ==-->
 
-       <div class="col-md-4 col-sm-4 col-xs-12 mb-30">
-         <div class="post">
-           <div class="post-img"> <img class="img-responsive" src="assets/images/posts/anoms-website-new.png" alt=""/> </div>
-           <div class="post-info all-padding-30">
-             <h3><a href="blogs/posts/anoms-website-new/">ANOMS新版官网正式开放！！！</a></h3>
-             <h6>发表于 2022/08/27</h6>
-             <hr>
-             <p class="font-16px">好消息！好消息！ANOMS新版官网开放啦！！</p>
-             <a href="blogs/posts/anoms-website-new/"><button class="btn btn-color btn-md btn-default remove-margin">立即查看</button></a></div>
+ <!--== QRCode Start ==-->
+ <section id="donate" class="pb-0">
+   <div class="container-fluid remove-padding">
+     <div class="row">
+       <div class="col-md-12 text-center">
+         <div class="section-title">
+           <h1 class="roboto-font text-uppercase">捐赠选项</h1>
+           <hr class="center_line dark-bg">
          </div>
        </div>
-
      </div>
+
+     <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12 mt-40 mb-30 feature-box text-center">
+          <div class="mb-20">
+            <img src="assets/images/donate/alipay.png" height="300" width="300" />
+          </div>
+          <h3 class="mt-10 dark-color">支付宝</h3>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 mt-40 mb-30 feature-box text-center">
+          <div class="mb-20">
+            <img src="assets/images/donate/wechat.png" height="300" width="300" />
+          </div>
+          <h3 class="mt-10 dark-color">微信支付</h3>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12 mt-40 mb-30 feature-box text-center">
+          <div class="mb-20">
+            <img src="assets/images/donate/qq.png" height="300" width="300" />
+          </div>
+          <h3 class="mt-10 dark-color">QQ支付</h3>
+        </div>
+      </div>
+      <p align="center"><sup><i>注：金额随意，量力而行。请在捐赠时备注好自己的姓名或游戏ID，以便我们在致谢一栏中对您表达感谢。</i></sup></p>
    </div>
  </section>
- <!--== Blog End ==-->
+ <!--== QRCode End ==-->
+
+ <!--== Thanks To Start ==-->
+ <section id="thanks" class="pb-0">
+   <div class="container-fluid remove-padding">
+     <div class="row">
+       <div class="col-md-12 text-center">
+         <div class="section-title">
+           <h1 class="roboto-font text-uppercase">致谢</h1>
+           <hr class="center_line dark-bg">
+         </div>
+       </div>
+     </div>
+
+     <div>
+      <p align="center"><b><font size="3">感谢以下用户对服务器建设提供的资金支持</font></b></p>
+      <div>
+        <table>
+          <tr>
+              <th class="font-center">游戏ID</th>
+              <th class="font-center">金额</th>
+          </tr>
+          <tr>
+              <td class="font-center">ShUi1205</td>
+              <td class="font-center">50元</td>
+          </tr>
+          <tr>
+              <td class="font-center">SwimRecord43385</td>
+              <td class="font-center">50元</td>
+          </tr>
+          <tr>
+              <td class="font-center">in</td>
+              <td class="font-center">10元</td>
+          </tr>
+          <tr>
+              <td class="font-center">Hexing23333</td>
+              <td class="font-center">6.66元</td>
+          </tr>
+          <tr>
+              <td class="font-center">Tigercrl</td>
+              <td class="font-center">5元</td>
+          </tr>
+          <tr>
+              <td class="font-center">rickychio238</td>
+              <td class="font-center">1.66元</td>
+          </tr>
+          <tr>
+              <td class="font-center">minecraft_cookie</td>
+              <td class="font-center">0.66元</td>
+          </tr>
+      </table>
+      </div>
+   </div>
+ </section>
+ <!--== Thanks To End ==-->
 
   <!--== Footer Start ==-->
   <footer class="footer" id="footer">

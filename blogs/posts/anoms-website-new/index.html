@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
 <!-- Base Link -->
-<!-- <base href="http://anoms-top.github.io/" /> -->
+<base href="https://anoms-top.github.io/" />
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,8 +19,11 @@
 <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
 <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
 <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
-<!-- LightBox Style Sheets -->
-<link href="assets/css/lightbox.css" rel="stylesheet">
+<!-- Font Awesome Sheets -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<!-- Waline Comments -->
+<script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" />
 
 </head>
 <body>
@@ -51,34 +54,35 @@
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav navbar-center" data-in="fadeIn" data-out="fadeOut">
           <li><a class="page-scroll" href="/">主页</a></li>
+          <li><a class="page-scroll" href="join/">进服说明</a></li>
+          <li><a class="page-scroll" href="about/">关于我们</a></li>
           <li class="dropdown"><a href="download/" class="dropdown-toggle" data-toggle="dropdown">下载</a>
             <ul class="dropdown-menu">
               <li>
-                <a href="download.html#modpacks">基础版整合包</a>
+                <a href="download/#modpacks">基础版整合包</a>
               </li>
               <li>
-                <a href="download.html#modpacks">豪华版整合包</a>
+                <a href="download/#modpacks">豪华版整合包</a>
               </li>
               <li>
-                <a href="download.html#modpacks">Tiger的1.19辅助模组客户端</a>
+                <a href="download/#modpacks">Tiger的1.19辅助模组客户端</a>
               </li>
               <li>
-                <a href="download.html#modpacks">基岩版1.19.0安卓客户端</a>
+                <a href="download/#modpacks">基岩版1.19.0安卓客户端</a>
               </li>
               <li>
-                <a href="download.html#resourcepacks">ANOMS专属材质包</a>
+                <a href="download/#resourcepacks">ANOMS专属材质包</a>
               </li>
               <li>
-                <a href="download.html#maps">ANOMS一周目地图</a>
+                <a href="download/#maps">ANOMS一周目地图</a>
               </li>
             </ul>
           </li>
-          <li><a class="page-scroll" href="gallery/"><span class="blue-color">博客</span></a></li>
-          <li><a class="page-scroll" href="join/">进服说明</a></li>
-          <li><a class="page-scroll" href="donate/">捐赠</a></li>
-          <li><a class="page-scroll" href="about/">关于我们</a></li>
+          <li><a class="page-scroll" href="gallery/">画廊</a></li>
+          <li><a class="page-scroll" href="blogs/">博客</a></li>
+          <li><a class="page-scroll" href="donate/"><span class="blue-color">捐赠</span></a></li>
           <li><a class="page-scroll" href="comments/">留言板</a></li>
-          <li><a class="page-scroll" href="http://www.anoms.top:81/">旧版官网</a></li>
+          <li><a class="page-scroll" href="http://www.anoms.top:8080/">服务器实时地图</a></li>
         </ul>
       </div>
       <!--== /.navbar-collapse ==-->
@@ -100,7 +104,7 @@
                        <ul>
                          <li><a href="/">主页</a></li>
                          <li><a href="blogs/">博客</a></li>
-                         <li><a href="">文章名称</a></li>
+                         <li><a href="">ANOMS新版官网开放啦！！</a></li>
                        </ul>
                    <!-- Breadcrumb End -->
                </div>
@@ -122,10 +126,10 @@
             <div class="col-md-12 col-sm-12 col-xs-12 mb-50">
               <div class="post">
                 <div class="post-info all-padding-40 bordered">
-                    <h3 class="font-20px text-uppercase"><a href="blog-grid.html">文章名称</a></h3>
-                    <h6>发表于 xxxx/xx/xx</h6>
+                    <h3 class="font-20px text-uppercase"><a href="blog-grid.html">ANOMS新版官网开放啦！！</a></h3>
+                    <h6>发表于 2022/08/27</h6>
                     <hr>
-                    <p class="font-16px">巴拉巴拉巴拉......</p>
+                    <p class="font-16px">好消息！好消息！ANOMS新版官网开放啦！！</p>
                     <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>8 Minutes</span></span> </span> </p>
                 </div>
               </div>
@@ -134,80 +138,13 @@
 
             <div class="col-md-12 col-sm-12 col-xs-12 mb-50">
               <div class="blog-standard">
-                <p class="font-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor lacus et tellus consectetur, vel pretium ante elementum. Aliquam elementum dignissim tellus a venenatis. Vestibulum vel sem pulvinar, scelerisque orci non, interdum magna. Sed vestibulum elit sed placerat semper. Quisque consectetur sollicitudin purus et tempus. Sed sit amet dapibus magna. Curabitur non odio magna. Fusce viverra elit eget orci ultricies dapibus.</p>
-                <blockquote>
-                  <p>Donec dui ipsum, pulvinar sit amet mattis quis, dapibus eu libero. Curabitur lobortis, diam non semper placerat, ipsum felis pulvinar magna, quis dapibus enim velit vel lorem.</p>
-                </blockquote>
+                <p class="font-300">&emsp;&emsp;经过了1个月多的写代码，苦逼的Tiger终于可以放假啦！<del>(但是又得去上学了qwq)</del><br>&emsp;&emsp;本次官网使用的是Nigo Studios的Nigo网站模板，经过Tiger的一番魔改后就成了现在的官网(比Next官网好看不知道几倍，超炫的)。<br>&emsp;&emsp;现在的话官网还可能有些bug，可以在QQ私聊Tiger，技术大佬们可以去<a href="https://github.com/ANOMS-top/anoms-top.github.io">Github仓库</a>提交Issue或者PR也行。以后的话官网会通过git克隆到anoms主服务器上，登陆 www.anoms.top:端口还没确定 就可以访问本官网啦！<br>&emsp;&emsp;最后，这个官网有许多彩蛋等着大家去发现哦！
+
+                </p>
               </div>
               <div class="post-tags"> <a>官网</a> <a>介绍</a> </div>
-              <h2 class="comment-reply-title mt-30">15 Comments</h2>
-              <ul class="comment-box">
-              <li class="post-comment">
-                <div class="comment-content"> <a href="#" class="avatar"><img src="assets/images/team/avatar-1.jpg" alt="#"></a>
-                  <div class="post-body">
-                    <div class="comment-header"> <span class="author"><a href="#">Karl Casey</a></span> <span class="time-ago"><a href="#">25 mins ago</a></span> </div>
-                    <div class="post-message">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim.</p>
-                    </div>
-                    <div class="comment-footer"> <span class="reply"><a href="#"><i class="ion-reply"></i> Reply</a></span> </div>
-                  </div>
-                </div>
-                <ul class="reply-comment">
-                  <li class="post-comment">
-                    <div class="comment-content"> <a href="#" class="avatar"><img src="assets/images/team/avatar-2.jpg" alt="#"></a>
-                      <div class="post-body">
-                        <div class="comment-header"> <span class="author"><a href="#">Lynda Stone</a></span> <span class="time-ago"><a href="#">18 days ago</a></span> </div>
-                        <div class="post-message">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                        <div class="comment-footer"> <span class="reply"><a href="#"><i class="ion-reply"></i> Reply</a></span> </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-              <li class="post-comment">
-                <div class="comment-content"> <a href="#" class="avatar"><img src="assets/images/team/avatar-3.jpg" alt="#"></a>
-                  <div class="post-body">
-                    <div class="comment-header"> <span class="author"><a href="#">Roland Buford</a></span> <span class="time-ago"><a href="#">3 months ago</a></span> </div>
-                    <div class="post-message">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim.</p>
-                    </div>
-                    <div class="comment-footer"> <span class="reply"><a href="#"><i class="ion-reply"></i> Reply</a></span> </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-
-            <div id="respond" class="comment-respond">
-              <h2 id="reply-title" class="comment-reply-title">Leave a Comment</h2>
-              <form method="post" id="form-comments" class="comment-form contact-form-style-01">
-                <div class="row-form row">
-                  <div class="col-form col-md-6">
-                    <div class="form-group">
-                      <input type="text" name="name" class="md-input" id="name" required="" placeholder="Name *" data-error="Your Name is Required">
-                    </div>
-                  </div>
-                  <div class="col-form col-md-6">
-                    <div class="form-group">
-                      <input type="email" name="email" class="md-input" id="email" placeholder="Email*" required="" data-error="Please Enter Valid Email">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <textarea name="message" class="md-textarea" id="message" rows="7" placeholder="Your Comments" required="" data-error="Please, Leave us a message"></textarea>
-                </div>
-
-                <p class="form-submit">
-                  <button class="btn btn-color btn-md btn-default remove-margin">Post Comments</button>
-                  <input type="hidden" name="comment_post_ID">
-                  <input type="hidden" name="comment_parent" id="comment_parent" value="0">
-                </p>
-              </form>
-            </div>
             </div>
           </div>
-
         </div>
 
         <div class="col-md-3 col-sm-3 col-xs-12">
@@ -217,10 +154,11 @@
               <img src="assets/images/avatars/Tigercrl.png" alt="about-me" />
             </a>
             <h4 align="center"><a>Tigercrl</a></h4>
-            <a class="btn btn-sm btn-dark-outline mt-10">QQ</a>
-            <a class="btn btn-sm btn-dark-outline mt-10">Gitee</a>
-            <a class="btn btn-sm btn-dark-outline mt-10">邮箱</a>
-            <a class="btn btn-sm btn-dark-outline mt-10">哔哩哔哩</a>
+            <a class="btn btn-sm btn-dark-outline mt-10" href="about/#Tigercrl" title="个人简介"><i class="icofont icofont-ui-user"></i></a>
+            <a class="btn btn-sm btn-dark-outline mt-10" href="tencent://message/?uin=1577438625&Menu=yes" title="QQ" target="_blank"><i class="fab fa-qq fa-fw"></i></a>
+            <a class="btn btn-sm btn-dark-outline mt-10" href="https://gitee.com/Tigercrl" title="Gitee" target="_blank"><i class="fab fa-git-square fa-fw"></i></a>
+            <a class="btn btn-sm btn-dark-outline mt-10" href="mailto:tigercrl@icloud.com" title="邮件"><i class="fa fa-envelope fa-fw"></i></a>
+            <a class="btn btn-sm btn-dark-outline mt-10" href="https://space.bilibili.com/627638767" title="哔哩哔哩" target="_blank"><i class="fab fa-bilibili fa-fw"></i></a>
           </div>
 
         </div>
@@ -294,7 +232,7 @@
 <!--== Wrapper End ==-->
 
 <!--== Javascript Plugins ==-->
-<!-- <script src="http://www.google.cn/maps/api/js?key=AIzaSyDJNGOwO2hJpJ9kz8e0UUPjZhEbgDJTTXE"></script> -->
+<script src="http://www.google.cn/maps/api/js?key=AIzaSyDJNGOwO2hJpJ9kz8e0UUPjZhEbgDJTTXE"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/smoothscroll.js"></script>
 <script src="assets/js/plugins.js"></script>
